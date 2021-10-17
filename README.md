@@ -51,7 +51,7 @@ RESPONSE
 
 {
 "responseCode": 200,
-"responseCodeDescription": "SUCCESS",
+"responseDescription": "SUCCESS",
 "numberOfRecords": 2,
 "investments": [
 	{
@@ -98,7 +98,7 @@ RESPONSE
 
 {
 "responseCode": 200,
-"responseCodeDescription": "SUCCESS",
+"responseDescription": "SUCCESS",
 "numberOfRecords": 2,
 "investments": [
 	{
@@ -144,7 +144,7 @@ RESPONSE
 
 {
 "responseCode": 200,
-"responseCodeDescription": "SUCCESS",
+"responseDescription": "SUCCESS",
 "numberOfRecords": 2,
 "products": [
 	{
@@ -213,7 +213,7 @@ RESPONSE
 
 {
 "responseCode": 200,
-"responseCodeDescription": "SUCCESS",
+"responseDescription": "SUCCESS",
 "numberOfRecords": 2,
 "transactions": [
 	{
@@ -292,7 +292,20 @@ RESPONSE
 {
 "responseCode": 200,
 "responseDescription": "SUCCESS",
-"userFriendlyMessage": "Login successful"
-
+"userFriendlyMessage": "Login successful",
+"profileInfo":
+{
+"id": 1234,
+"firstName": "Kingsley",
+"lastName": "Anokam",
+"email": "Kingsleyanokam@gmail.com",
+"phoneNumber": "2347063834927",
+"bvn": "222222222222",
+"nin": "55132242322322",
+"netWorth": 5000000.00,
+"accountType": "Investor",
+"dateCreated": "2021-07-06",
+"deleted": "N"
 }
 
+}
